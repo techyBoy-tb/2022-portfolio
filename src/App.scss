@@ -1,0 +1,31 @@
+@import './style/variables.scss';
+
+* {
+  font-family: $jaldi;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: $background;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.skillList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+p {
+  font-size: 24;
+}
+
+@media (max-width: 650px) {
+  .header-container {
+    display: none
+  }
+}
